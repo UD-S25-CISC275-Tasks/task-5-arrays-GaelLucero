@@ -11,11 +11,10 @@ export function bookEndList(numbers: number[]): number[] {
     // Base case, if list is length 1 then return that twice
     }else if (numbers.length === 1) {
         return [numbers[0], numbers[0]]
-    }else{
+    }
     // returns the first and last element from the numbers list
         return [numbers[0], numbers[numbers.length-1]]
-    }
-    return numbers;
+    
 }
 
 /**
